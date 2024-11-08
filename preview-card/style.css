@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+    font-size: 16px;
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'Figtree', sans-serif;
+}
+
+.container {
+    max-width: 360px;
+    margin: 0 auto;
+    border-radius: 18px;
+    box-shadow: 7px 7px 0 black;
+}
+
+.card .top {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.card {
+    width: 300px;
+    padding: 15px;
+    border-radius: 18px;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 0%, 7%);
+    ;
+}
+
+.txt {
+    padding-top: 10px;
+    width: 100%;
+    margin: 5px;
+}
+
+.publisher img {
+    width: 40px;
+    height: 40px;
+    padding: 0 10px 0 0;
+}
+
+.publisher {
+    position: relative;
+    margin: 0px;
+}
+
+.publisher p {
+    height: 100%;
+    position: absolute;
+    display: inline;
+    top: 13px;
+}
+
+h2 {
+    width: fit-content;
+    background-color: hsl(47, 88%, 63%);
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0;
+}
+
+.second {
+    color: hsl(0, 0%, 42%);
+    margin: 20px 0 15px 0;
+    font-size: 15px;
+}
+
+.first {
+    padding-top: 0px;
+    margin: 10px 0 15px 0;
+    font-size: 15px;
+    color: hsl(0, 0%, 7%);
+}
+
+h1 {
+    color: hsl(0, 0%, 7%);
+    font-size: 22px;
+}
