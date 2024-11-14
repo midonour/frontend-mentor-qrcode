@@ -86,3 +86,8 @@ h1 {
     color: hsl(0, 0%, 7%);
     font-size: 22px;
 }
+
+h1:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
